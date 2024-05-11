@@ -1,33 +1,60 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.loginPage {
+    text-align: center;
+    color: green;
+    font-size: xx-large;
+    background-color: black;
+    border-style: double;
+    margin-top: 5%;
+    inline-size: 40%;
+    border-radius: 45%; 
+    margin-left: 29%;
+      
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.user {
+    color: blueviolet;
+    font-size: larger;
+    margin-top: 15%;
+    margin-left: 31%;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.password {
+    color: blueviolet;
+    font-size: larger;
+    margin-left: 40%;
+    
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+.text {
+    
+    margin-left: 40%;
+    font-size:x-large;
+    color:blueviolet ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.email {
+    margin-top: 10%;
+    margin-left: 40%;
+    color: blueviolet;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+
+.emaile {
+    margin-left: 40%;
+}
+
+.button {
+    
+margin-left: 45%;
+    display: flex ;
+    margin-top: 10%;
+    text-align: center;
+    
 }
